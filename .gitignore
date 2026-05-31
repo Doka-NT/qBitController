@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Xcode — пользовательские данные и состояние
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# Сборка
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (на случай будущих зависимостей)
+Pods/
+Carthage/Build/
+
+# Прочее
+*.env
+.env
+*.log
